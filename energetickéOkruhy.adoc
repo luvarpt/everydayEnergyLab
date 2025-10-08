@@ -1,0 +1,412 @@
+= Energia okolo nás
+verzia: 1.0
+autor: (Tvoje meno / škola)
+:toc:
+:sectnums:
+
+== 1. Pasívny dom – kúrenie (modelový dom 120 m²)
+
+Pasívny dom má veľmi nízke tepelné straty, no stále potrebuje kúriť. Kľúčové piliere:
+- **Silná izolácia a vzduchotesnosť** → minimalizujú úniky tepla.
+- **Veľké južné okná** → zimné **solárne zisky** (Slnko nízko, lúče prenikajú hlboko).
+- **Rekuperácia** → spätne získava teplo z odvádzaného vzduchu; v pasívnych domoch je nutná, inak sú zimné straty vetraním príliš veľké.
+- **Vnútorné zdroje tepla** (ľudia, varenie, pranie, umývačka, počítače) sa započítavajú – pri návrhu pasívneho domu sa s nimi **naozaj ráta**.
+
+=== Koľko tepla dodá sviečka?
+Jedna sviečka ≈ **40 W** = **0,96 kWh/deň**, ak horí nepretržite.  
+Modelový dom **120 m²** v pasívnom štandarde: **~15 kWh/m²·rok** → ~**1800 kWh/rok**.  
+Priemerne cez zimu ~**5 kWh/deň** ⇒ to je ako **päť sviečok** horiaci celý deň.
+
+=== Tepelné straty rôznych stavieb (orientačne)
+- **Starý nezateplený dom:** 200–300 kWh/m²·rok  
+- **Zateplený dom (80.–90. roky):** 80–120 kWh/m²·rok  
+- **Nízkoenergetický dom:** 30–50 kWh/m²·rok  
+- **Pasívny dom:** ~15 kWh/m²·rok
+
+=== Solárne zisky a súkromie (žalúzie vs. záclony)
+Zimné slnko cez južné okná zadarmo kúri. Ak však **exteriérovými žalúziami** v zime chránime súkromie, **blokujeme zisky** → chýbajúce teplo musíme dodať kúrením.  
+Ak to ide, používaj v zime **vnútorné záclony** (súkromie, no zisky ostávajú). V lete naopak **exteriérové žalúzie**, aby sa dom neprehrieval.
+
+=== Vplyv zemného kolektora na vegetáciu
+Pri dlhodobom odoberaní tepla zo zemného kolektora sa pôda nad ním mierne ochladzuje. V praxi to môže znamenať, že tráva či kvety nad kolektorom **zakvitnú o pár dní neskôr** než inde.
+
+=== Otázky na zamyslenie
+- Koľko **sviečok** by bolo treba, aby dom (120 m²) v priemere vykúrili bez iného kúrenia?  
+- Prečo v pasívnom dome **musí** byť rekuperácia, ale v starom dome to „až tak netreba“?  
+- Prečo je v zime dôležité **necloniť** južné okná zvonka, ak chceme zisky?
+
+[NOTE]
+====
+*Ilustrácia:* „Totoro“ – rodina pri veľkom južnom okne, zimné lúče zohrievajú interiér; jemné sviečky a ikonka rekuperácie.
+====
+
+== 2. Pasívny dom – ohrev TÚV (bojler, COP, akumulácia)
+
+Teplá úžitková voda (TÚV) tvorí významnú časť spotreby aj v pasívnom dome.
+
+=== Spôsoby ohrevu
+- **Elektrický bojler:** jednoduchý, lacný na inštaláciu, ale kWh tepla = kWh elektriny.  
+- **Tepelné čerpadlo (TČ):** využíva **COP ~2–3** pri ohreve TÚV (nižšie než pri kúrení, lebo TÚV má vyššiu teplotu).  
+- **Plynový kotol:** ohreje vodu na vyššiu teplotu, preto zvyčajne menší zásobník.
+
+=== Akumulácia a straty
+- TČ má najlepšiu účinnosť pri **nižších teplotách vody (45–50 °C)** → potrebuje **väčší zásobník**.  
+- Zásobník má **tepelné straty** (jednotky stoviek Wh/deň) – treba s nimi rátať.
+
+=== COP a rozdiel teplôt
+COP **klesá**, keď rastie rozdiel teplôt medzi zdrojom (vzduch/voda/zem) a TÚV. Preto sa TČ preferuje s **nízkoteplotným vykurovaním** a TÚV skôr na 45–50 °C (nie 60–70 °C ako pri plyne).
+
+=== Typy TČ a terminológia
+- **Vzduch–vzduch** (bežne nazývané „klimatizácia“).  
+- **Vzduch–voda**, **zem–voda** (kolektor/vrty), **voda–voda** (jazero/studňa) – v hovorovej reči „tepelné čerpadlá“.  
+Prvé slovo = **odkiaľ** berieme teplo, druhé = **kam** ho dodávame.  
+**Otázka:** aké TČ je **chladnička**?
+
+=== Koľko energie je v zásobníku?
+Koľko „energie“ máme v 200 l bojleri ohriatom z **5 °C** na **50 °C**?
+\[
+E = m \cdot c \cdot \Delta T = 200 \,\text{kg} \times 4{,}18 \,\text{kJ/(kg·K)} \times 45 \,\text{K}
+= 37\,620 \,\text{kJ} \approx 10{,}45 \,\text{kWh}.
+\]
+
+[NOTE]
+====
+*Ilustrácia:* „Kiki’s Delivery Service“ – kúpeľňa s veľkou vaňou a parou; Kiki ukazuje na bojler so škálou COP.
+====
+
+== 3. Pasívny dom – pasívne chladenie (výkon + komínový efekt)
+
+=== Ako to funguje
+- **Free cooling**: obehové čerpadlo ženúce **vodu zo zemného okruhu (10–12 °C)** cez podlahu/stropy.  
+- **Tienenie**: exteriérové žalúzie/látkové tienenie + **listnatý strom** (v lete tieň, v zime holý).  
+- **Nočné vetranie** a **komínový efekt**: otvor dnu dole + otvor hore → teplý vzduch stúpa von, studený sa nasáva zdola. Rekuperácia môže pomôcť – krátko vytvorí **pretlak** a natiahne chladný vzduch, odvod ide von oknom hore.
+
+=== Výkon pasívneho chladenia – príklad
+Prietok vody **0,2 l/s** (0,2 kg/s), rozdiel teplôt **ΔT = 3 K**:
+\[
+Q = \dot m \, c \, \Delta T = 0{,}2 \times 4200 \times 3 \approx 2{,}5 \,\text{kW chladu}
+\]
+Spotreba čerpadla ~**50 W** ⇒ „COP“ ~**50** (len orientačne – ide o free cooling).  
+**Limit:** teplota zeme; bez tienenia môžu byť zisky príliš veľké.
+
+=== Otázky na zamyslenie
+- Prečo bez tienenia ani 2,5 kW „chladu“ nemusí stačiť?  
+- Ako navrhnúť tienenie, aby v zime pustilo slnko, ale v lete nie?  
+- Prečo sa hovorí, že strom pred oknom „klimatizuje“?
+
+[NOTE]
+====
+*Ilustrácia:* „Maťko a Kubko“ – Kubko otvára okno hore (komín), Maťko sedí s nohami v potoku; v pozadí listnatý strom.
+====
+
+== 4. Kontajner – kúrenie elektrickými radiátormi (sálanie vs. fúkanie, latencia)
+
+Kontajner má slabú izoláciu a veľké straty – elektrické kúrenie je jednoduché, ale **drahé**.
+
+=== Ako to funguje a koľko to žerie
+- Elektrický radiátor **2 kW** beží 5 hodín → **10 kWh**.  
+- Pri slabom obale stavby je to len „dorovnávanie strát“.
+
+=== Sálavé vs. konvekčné teplo
+- **Olejový radiátor (sálavý)** – príjemné teplo v okolí, drží teplo dlhšie.  
+- **Špirálový ventilátor (konvekcia)** – okamžite hreje, hneď po vypnutí chladno.  
+- **Infrapanel** – ohrieva **priamo ľudí a predmety**, vhodný pri krátkom pobyte.
+
+=== Latencia (výhoda elektriny)
+- **Ventilátor so špirálou:** okamžitý nábeh, okamžitý útlm po vypnutí.  
+- **Olejový radiátor:** pomalší nábeh, dlhšie sála.  
+- **Akumulačné kachle:** dlhé nahrievanie, ale celý deň sálajú.  
+- **Piecka na drevo:** stabilné, príjemné sálanie po nahriatí.  
+V kontajneri je nízka latencia užitočná, ale výkonovo/finančne **neefektívna**.
+
+=== Presklená stena = veľká strata
+Staršie sklá majú vysoké straty – **1 m²** okna môže mať pri mrazoch **~100 W** trvalej straty; veľké presklenie (10 m²) → **1 kW** straty kontinuálne.
+
+=== Otázky na zamyslenie
+- Prečo je kúrenie v kontajneri „boj s deravým hrncom“?  
+- Kedy je infrapanel lepší než ventilátor so špirálou?  
+- Prečo veľké presklenie zvyšuje potrebu výkonu?
+
+[NOTE]
+====
+*Ilustrácia:* „Tom & Jerry“ – Jerry beží v elektromeri, Tom v kabáte griluje syr nad olejovým radiátorom; veľká presklená stena s „unikajúcimi“ šípkami tepla.
+====
+
+== 5. Kontajner – chladenie klimatizáciou (vzduch–vzduch TČ) + tepelné zisky + ľadový experiment
+
+=== Odkiaľ sa berie teplo (orientačný rozpočet)
+- **Slnko cez okná (dominantné):** napr. 8 m² × 800 W/m² × priepustnosť 0,6 ≈ **3,8 kW**  
+- **Slnko cez plech/steny/strechu:** steny ~2,0 kW, strecha ~2,3 kW (odhad)  
+- **Ľudia + spotrebiče:** ~0,8 kW  
+**Spolu:** ~**9 kW** → malá 2,5–3,5 kW klimatizácia **nestačí** bez tienenia.
+
+=== Klimatizácia = tepelné čerpadlo vzduch–vzduch
+- Chladí v lete, vie kúriť v zime.  
+- **COP ~3–4** (1 kWh el. → 3–4 kWh chladu/tepla).  
+**Limit:** prietok vzduchu a veľké solárne zisky.
+
+=== Myšlienkový experiment (ľad)
+**10 l** vody zamrznutej na **–20 °C** → ohriatie na 30 °C & roztopenie = **~1,4 kWh** odobratého tepla.  
+Pri ziskoch ~6–9 kW vydrží len **~10–15 minút** ⇒ ukážka fyziky, nie riešenie.
+
+=== Ako pomôcť klíme
+Exteriérové tienenie, svetlé povrchy, nočné vetranie, obmedziť vnútorné tepelné zisky.
+
+=== Otázky na zamyslenie
+- Ktorá zložka ziskov je najväčšia a čo s ňou vieme urobiť najlacnejšie?  
+- Prečo sa kontajner prehrieva rýchlejšie než murovaný dom?  
+- Čo by z pasívneho chladenia domu fungovalo v kontajneri?
+
+[NOTE]
+====
+*Ilustrácia:* „Ponyo“ – postava spotená pod klímou; pri vonkajšej jednotke vedierko s ľadom (odkaz na experiment).
+====
+
+== 6. Maringotka – kúrenie (drevo vs. elektrina, CO₂ cyklus, predohrev)
+
+=== Drevo ako zdroj energie
+- Suché palivo: ~**4 kWh/kg**; piecka účinnosť **70–80 %**.  
+- **5 kg** dreva ≈ **20 kWh** tepla → hodiny komfortu.
+
+=== Tepelné straty maringotky (odhad)
+Malá izolácia → vysoké straty. Zima/mráz: **2–3 kW** trvalého výkonu.  
+Na **víkend (2 dni)** často stačí **20–30 kg** suchého dreva.
+
+=== Elektrina ako doplnok
+- **Batéria 5,5 kWh** vydrží na 2–3 hodiny kúrenia 2 kW ohrievačom.  
+- Zmysel: **infrapanel** pri príchode (rýchly komfort), alebo **predohrev** interiéru na 10–15 °C pred príchodom (štart piecky je manuálny).
+
+=== CO₂ cyklus a „solárna energia v dreve“
+- Strom pohlcuje CO₂ → **ukladá slnečnú energiu** do dreva (krátky cyklus).  
+- Spaľovaním sa CO₂ vráti; pri fosílnych palivách uvoľňujeme **milióny rokov** starý uhlík (dlhý cyklus).  
+**Otázka:** Sú fosílne palivá len „stará solárna energia v batérii“?
+
+=== Cena dreva (orientačne, 2025, SR)
+- Tvrdé drevo 120–150 €/prm (~500 kg ≈ 2000 kWh) → **0,06–0,08 €/kWh tepla**.  
+Elektrina ~0,20 €/kWh → ~3× drahšia na teplo.
+
+=== Otázky na zamyslenie
+- Koľko dreva potrebuješ na víkend pri mrazoch?  
+- Prečo batéria nemôže konkurovať drevu v množstve energie?  
+- Aké výhody má piecka oproti elektrickému ohrievaču?
+
+[NOTE]
+====
+*Ilustrácia:* „Pokémoni“ – Pikachu skúša kúriť iskrami (batéria prázdna), Charmander spokojne kúri v piecke; bublina s CO₂ cyklom strom↔oheň.
+====
+
+== 7. Maringotka – získavanie úžitkovej vody (80 m studňa)
+
+=== Energia na čerpanie
+Potrebný zdvih: 80 m.  
+1 l vody → **~0,00022 kWh** (ideál) → s účinnosťou čerpadla ~50 % ⇒ **~0,00045 kWh/l**.
+
+=== Príklady
+- **30 študentov × 1 l** (ruky) = 30 l → **0,0135 kWh**.  
+- **Oplach riadu 50 l** → **0,0225 kWh**.  
+Samotné čerpanie je energeticky malé; problémom býva **ohrev**.
+
+=== Porovnanie s pitnou vodou (mesto)
+- Pitná voda ~**2 €/m³** (0,002 €/l).  
+- 1000 l zo studne vyčerpáš za ~**0,45 kWh** (≈ 0,10 € pri 0,22 €/kWh).  
+No ide o **úžitkovú vodu** – nie je zaručene pitná.
+
+=== Dažďová voda zo strechy
+Ročné zrážky ~**700 mm**, plocha 8×12 m = **96 m²** → **~67 m³/rok** (teoreticky).  
+V praxi menej (straty, čistota). Vhodné na úžitok, nie vždy na pitie.
+
+=== Otázky na zamyslenie (vrátane bonusu)
+- Koľko vody by sa spotrebovalo, keby sa **30 študentov sprchovalo** (50 l/os.)?  
+- **Bonus:** Koľko vody vyčerpáme z plnej **5,5 kWh** batérie?  
+- Aké spôsoby ohrevu vody sú v maringotke realistické (piecka, elektrina, solár)?
+
+[NOTE]
+====
+*Ilustrácia:* „Spirited Away“ – Chihiro pri piecke zohrieva hrniec vody; vedľa symbolická studňa s čerpadlom.
+====
+
+== 8. Maringotka – chladenie (ventilátor, tienenie, hmla)
+
+=== Praktické spôsoby
+- **Ventilátor (~50 W):** neznižuje teplotu, ale znižuje **pocitovú** (odparovanie potu).  
+- **Tienenie:** biela strecha, plachta, strom – najlacnejší spôsob zníženia ziskov.  
+- **Rozprašovanie/hmla na strechu:** maximalizovať **odparovanie** (tenký film, pulzy).
+
+=== Prečo hmla funguje (latentné teplo)
+Odparenie **1 l** vody odoberie ~**0,68 kWh** tepla.  
+Ak z 10 l odparíš 30 % → **~2 kWh** chladu; ak 100 % → **~6,8 kWh**.  
+Čerpanie 1 l zo studne stojí **~0,00045 kWh**, teda efekt je **~1500×** väčší.
+
+=== Kedy to nefunguje
+Vysoká **vlhkosť** vzduchu, bezvetrie, hladký povrch s odtokom (voda steká skôr, než sa odparí). Pomôžu **jemné trysky**, **pulzný režim**, **priečne prúdenie**.
+
+=== Otázky na zamyslenie
+- Prečo ventilátor ochladí pocitovo, ale nie vzduch?  
+- Koľko litrov vody treba denne, aby maringotka ostala znesiteľná?  
+- Kedy je účinnejšie tienenie než hmla?
+
+[NOTE]
+====
+*Ilustrácia:* „Scooby Doo“ – Scooby & Shaggy pri ventilátore, Daphne polieva strechu, Velma zapisuje teploty, Fred rozťahuje bielu plachtu.
+====
+
+== 9. Energetické zisky slnka (južné okná v Modre)
+
+=== Koľko tepla získa okno
+- **Zima:** 1 m² južného okna ≈ **2–3 kWh/deň**  
+- **Leto:** 1 m² ≈ **6–7 kWh/deň**  
+**4 m²** okno v zime = **8–12 kWh/deň** (ako **200–300 sviečok**).
+
+=== Faktory
+Orientácia, tienenie, typ skla (solárny faktor), vnútorné záclony vs. exteriérové žalúzie.
+
+=== Historický box – ako sme zmerali výkon Slnka
+- 1767 de Saussure – solárna „pec“, až 110 °C.  
+- 1902 Abbot – **1,35 kW/m²** mimo atmosféry.  
+- Dnes satelity – **1,361 kW/m²** (rozdiel pár percent).
+
+=== Otázky na zamyslenie
+- Ako navrhnúť dom, aby v zime zisky využil a v lete sa neprehrial?  
+- Koľko energie získa 8 m² okien v januári a v júli?
+
+[NOTE]
+====
+*Ilustrácia:* „Totoro“ – zimné lúče vs. letné tienenie na tom istom okne.
+====
+
+== 10. Sálavé teplo, pocitové teplo a limity ohrevu vzduchu (dohrev s nízkou latenciou)
+
+=== Prečo niekedy „smrdí“ teplovzdušné kúrenie
+Pri prvom zapnutí sa **spálený prach** (organické čiastočky na horúcich prvkoch) uvoľní → typická „spálenina“. Pomáha vyčistenie filtrov a povrchov pred sezónou.
+
+=== Limity komfortu pri kúrení vzduchom
+- **Rýchlosť vzduchu** v zóne ≲ **0,2 m/s** (inak prievan).  
+- **Teplota prívodu** typicky max. **+8 až +11 K** nad izbovú (inak stratifikácia).  
+- Výkon vetraním s dohrevom:  
+  - 120 m³/h, ΔT=10 K → **~0,40 kW**  
+  - 180 m³/h, ΔT=15 K → **~0,90 kW**  
+  - 300 m³/h, ΔT=15 K → **~1,5 kW**
+
+=== Sálanie vs. fúkanie
+- **Sálavé zdroje** (podlaha, piecka) → komfort už pri 19–20 °C.  
+- **Konvekcia** (fúkanie) → obvykle potrebuje 23–24 °C na rovnaký pocit.
+
+=== Nízka latencia dohrevom vzduchu
+Podlahové kúrenie je pomalé; **dohrev vzduchu cez rekuperáciu** má **rýchlu reakciu** – ideálny pri **náhlej návšteve** či rýchlej zmene zaťaženia.
+
+=== Otázky na zamyslenie
+- Stačí samotné vetranie (180 m³/h) na kompenzáciu 1,2 kW strát?  
+- Prečo je sálanie príjemnejšie pri nižšej teplote vzduchu?  
+- Kedy sa oplatí mať dohrev vzduchu?
+
+[NOTE]
+====
+*Ilustrácia:* „Maťko a Kubko“ – Kubko pri piecke (spokojný), Maťko pri prívode teplého vzduchu; ikonka „vyčistiť prach“.
+====
+
+== 11. Fotovoltaické panely (výnosy, náklon, porovnanie svetiel)
+
+=== Výnosy v Modre
+- **1000–1200 kWh/kWp·rok** pri juhu a 30–35° náklone.  
+- 6×400 Wp = **2,4 kWp** → **~2400–2900 kWh/rok**.  
+- V zime len **10–20 %** letného maxima.
+
+=== Trackovanie a odchýlky
+- Sledovanie Slnka → **+20–30 %**, ale zložitejšie a drahšie.  
+- Východ/Západ: širší denný profil (viac ráno/večer), nižší špičkový výkon.
+
+=== Svetelná porovnávacia vložka
+- **LED 50 W** ≈ **5000 lm** (malá miestnosť).  
+- **Sviečka** ≈ **12 lm**.  
+- **Mobilná „baterka“** ≈ **50–150 lm**.  
+LED 50 W svieti ako **~400–500 sviečok** alebo **30–100 mobilov**.
+
+=== Otázky na zamyslenie
+- Koľko dní potiahne **5,5 kWh** batéria **50 W** osvetlenie?  
+- Kedy je vhodné orientovať panely na východ/západ?
+
+[NOTE]
+====
+*Ilustrácia:* „Dexter’s Laboratory“ – Dexter ukazuje panely a LED reflektor, Dee Dee drží sviečku a mobil.
+====
+
+== 12. Skladovanie energie a energetická hustota (palivá, batérie, zásobníky, ceny)
+
+=== Hustota energie (približne, na kg)
+- **Sviečka/parafín:** 11–12 kWh/kg  
+- **Drevo (suché):** ~4 kWh/kg  
+- **Uhlie:** ~7 kWh/kg  
+- **Nafta/olej:** 11–12 kWh/kg (**~10 kWh/l**)  
+- **Vodík:** ~33 kWh/kg (objemovo slabý)  
+- **Li-ion batéria:** 0,15–0,25 kWh/kg
+
+=== Zásobníky energie (inžinierske)
+- **PVE – prečerpávacie elektrárne:** účinnosť ~75 %, obrovská kapacita (napr. Čierny Váh ~7350 MWh).  
+- **Gravitačné „výťahy“:** zdvíhanie závaží, demonštrácia princípu v malom.  
+- **Tepelné zásobníky – roztavené soli:** 400–600 °C, účinnosť ~70 %, večerná dodávka tepla.  
+- **CAES – stlačený vzduch:** ukladanie do kaverny, neskôr turbína.
+
+=== Ceny elektriny a význam skladovania
+- Domácnosti (SR 2025, orientačne): **~0,20 €/kWh**.  
+- **Denné kolísanie trhových cien:**  
+  - noc **lacnejšia** (0,05–0,10 €/kWh),  
+  - deň **stred**,  
+  - podvečer/špička **drahšie** (0,25–0,40 €/kWh).  
+- **Sezóna:** zima drahšia (kúrenie), leto lacnejšie (viac soláru).  
+**Pointa:** ak vieme **uložiť lacnú elektrinu** (batéria) a použiť ju v špičke, **ušetríme** aj stabilizujeme sieť.
+
+=== Otázky na zamyslenie
+- Koľko **1 kg batérií** nahradí **1 liter nafty** (~10 kWh)?  
+- Prečo sú PVE kľúčové, keď pribúda solár?  
+- Je lepšie ukladať energiu ako **teplo** (soľ) alebo **elektrinu** (batéria)?
+
+[NOTE]
+====
+*Ilustrácia:* „Madagascar – tučniaci“ – pília zásobník roztavenej soli, vo fúriku vezú kocky ľadu; jeden tučniak si odkladá snehové gule „na leto“.
+====
+
+== 13. Špeciál – Ako funguje tepelné čerpadlo (cyklus technicky aj „ľudsky“)
+
+=== Čo je TČ
+TČ je **obrátená chladnička**: neprodukuje teplo, ale ho **presúva** zo studeného prostredia do teplejšieho.
+
+=== 4-krokový cyklus (technicky)
+1. **Odparovanie:** chladivo sa pri nízkej teplote odparí a **odoberie teplo** okoliu (vzduch/zem/voda).  
+2. **Kompresia:** kompresor stlačí pary → **stúpne teplota a tlak**.  
+3. **Kondenzácia:** horúce pary vnútri **odovzdajú teplo** kúreniu/bojleru a skvapalnia.  
+4. **Expanzia:** pokles tlaku ochladí chladivo, cyklus sa opakuje.
+
+=== Ako si to predstaviť (pre laikov)
+- **Odparovač = mokrý uterák** vonku: odparenie berie teplo okoliu.  
+- **Kompresor = pumpa na bicykel:** stláčaním sa vzduch zahreje.  
+- **Kondenzátor = zarosené okno:** para sa mení na kvapky a **uvoľní teplo**.  
+- **Expanzný ventil = otvorená sóda:** tlak rýchlo klesne, médium sa ochladí.
+
+=== COP – účinnosť „väčšia než 100 %“
+**COP =** dodané teplo / elektrina. Typicky **3–5**.  
+Nie je to „zázrak“ – **elektrina** len **poháňa presun tepla**, ktoré už je **vonku**.
+
+=== Typy TČ
+- **Vzduch–vzduch = klimatizácia**,  
+- **Vzduch–voda**, **zem–voda**, **voda–voda** (v hovorovej reči „tepelné čerpadlo“).
+
+=== História a chladničky
+- 1857 Rittinger – prvé TČ (odparovanie solanky).  
+- 1913 prvá elektrická chladnička v domácnosti. Predtým ľadovne, pivnice, ľad zo zamrznutých jazier.
+
+=== Iné spôsoby čerpania tepla (okrajová poznámka)
+- **Absorpčné TČ:** „motorom“ je **teplo** (plyn, solárny kolektor); pracovník: napr. amoniak–voda.  
+- **Adsorpčné TČ:** pevné látky (zeolit).  
+- **Magnetokalorické systémy:** vo vývoji, zmena magnetického poľa mení teplotu materiálu.  
+- **Peltierov článok (termoelektrický):** prúd presúva teplo z jednej strany do druhej (mini-chladničky, chladenie elektroniky), **nízke COP (~1)**.
+
+=== Otázky na zamyslenie
+- Prečo COP klesá pri **–15 °C** vonku?  
+- Aké TČ je **chladnička**?  
+- Prečo sa TČ hodí k **podlahovému kúreniu** (nízka teplota)?  
+
+[NOTE]
+====
+*Ilustrácia:* „Wallace & Gromit“ – Wallace kreslí štyri kroky, Gromit pumpuje „kompresor“; v pozadí starý ľadník a malý Peltier modul s horúcou a studenou stranou.
+====
+
